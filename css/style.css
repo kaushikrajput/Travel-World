@@ -569,6 +569,7 @@ h1 {
     margin-top: 7rem;
   }
   .box-wrapper {
+    display: block;
     box-shadow: none;
   }
 
