@@ -42,14 +42,14 @@
                 <img src="./img/company-img.jpg" alt="Company image">
             </div>
 
-            <form action="mailto:libertytravel1901@gmail.com"  method="post" enctype="text/plain" class="form">
-                First Name: <input type="text" placeholder="Enter your firstname" required><br><br>
-                Last Name: <input type="text" placeholder="Enter your firstname" required><br><br>
-                Gender: <input type="text" placeholder="M/F" max="1" required><br><br> 
-                Age: <input type="number" min="18" max="75" required><br><br>
-                Email: <input type="email" placeholder="Enter your email" required><br><br>
-                Phone Number: <input type="tel" required><br><br>
-                Budget: <input type="number" min="5000" max="50000" step="1000" required><br><br>
+            <form action="https://formspree.io/f/mrgvroeg"  method="POST" class="form">
+                First Name: <input type="text" placeholder="Enter your firstname" name="firstName" required><br><br>
+                Last Name: <input type="text" placeholder="Enter your firstname" name="lastName" required><br><br>
+                Gender: <input type="text" placeholder="M/F" max="1" name="gender" required><br><br> 
+                Age: <input type="number" min="18" max="75" name="age" required><br><br>
+                Email: <input type="email" placeholder="Enter your email" name="email" required><br><br>
+                Phone Number: <input type="number" name="phoneNumber" required><br><br>
+                Budget: <input type="number" min="5000" max="50000"  name="budget" required><br><br>
                 <button type="submit">Submit</button>
             </form>
             
